@@ -7,19 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E9A66C79278F649A001D6207 /* YokeTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A66C78278F649A001D6207 /* YokeTestApp.swift */; };
-		E9A66C7B278F649A001D6207 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A66C7A278F649A001D6207 /* ContentView.swift */; };
 		E9A66C7D278F649B001D6207 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9A66C7C278F649B001D6207 /* Assets.xcassets */; };
-		E9A66C80278F649B001D6207 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9A66C7F278F649B001D6207 /* Preview Assets.xcassets */; };
+		E9A66C89278F653B001D6207 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A66C88278F653B001D6207 /* Album.swift */; };
+		E9A66C8C278F670B001D6207 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A66C8B278F670B001D6207 /* NetworkManager.swift */; };
+		E9A66C8E278F9FD2001D6207 /* AlbumManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A66C8D278F9FD2001D6207 /* AlbumManager.swift */; };
+		E9A66C91278FB246001D6207 /* AlbumsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A66C90278FB246001D6207 /* AlbumsListView.swift */; };
+		E9A66C93278FB2E2001D6207 /* YokeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A66C92278FB2E2001D6207 /* YokeTest.swift */; };
+		E9D9BC8227909B7100965085 /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D9BC8127909B7100965085 /* Genre.swift */; };
+		E9D9BC8627909FC400965085 /* AlbumsListView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D9BC8527909FC400965085 /* AlbumsListView+ViewModel.swift */; };
+		E9D9BC882790A6B600965085 /* AlbumRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D9BC872790A6B600965085 /* AlbumRowView.swift */; };
+		E9D9BC8A2790AE7D00965085 /* AlbumDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D9BC892790AE7D00965085 /* AlbumDetailView.swift */; };
+		E9D9BC8D2790AEF200965085 /* Album+Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D9BC8C2790AEF200965085 /* Album+Mock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E9A66C75278F649A001D6207 /* YokeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YokeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9A66C78278F649A001D6207 /* YokeTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YokeTestApp.swift; sourceTree = "<group>"; };
-		E9A66C7A278F649A001D6207 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E9A66C7C278F649B001D6207 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E9A66C7F278F649B001D6207 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E9A66C81278F649B001D6207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9A66C88278F653B001D6207 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		E9A66C8B278F670B001D6207 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		E9A66C8D278F9FD2001D6207 /* AlbumManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumManager.swift; sourceTree = "<group>"; };
+		E9A66C90278FB246001D6207 /* AlbumsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsListView.swift; sourceTree = "<group>"; };
+		E9A66C92278FB2E2001D6207 /* YokeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YokeTest.swift; sourceTree = "<group>"; };
+		E9D9BC8127909B7100965085 /* Genre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
+		E9D9BC8527909FC400965085 /* AlbumsListView+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlbumsListView+ViewModel.swift"; sourceTree = "<group>"; };
+		E9D9BC872790A6B600965085 /* AlbumRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumRowView.swift; sourceTree = "<group>"; };
+		E9D9BC892790AE7D00965085 /* AlbumDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailView.swift; sourceTree = "<group>"; };
+		E9D9BC8C2790AEF200965085 /* Album+Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Album+Mock.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,21 +66,68 @@
 		E9A66C77278F649A001D6207 /* YokeTest */ = {
 			isa = PBXGroup;
 			children = (
-				E9A66C78278F649A001D6207 /* YokeTestApp.swift */,
-				E9A66C7A278F649A001D6207 /* ContentView.swift */,
+				E9A66C92278FB2E2001D6207 /* YokeTest.swift */,
+				E9A66C8F278FB229001D6207 /* Views */,
+				E9D9BC8427909FA100965085 /* View Models */,
+				E9A66C8A278F66F9001D6207 /* Networking */,
+				E9A66C87278F6508001D6207 /* Models */,
 				E9A66C7C278F649B001D6207 /* Assets.xcassets */,
 				E9A66C81278F649B001D6207 /* Info.plist */,
-				E9A66C7E278F649B001D6207 /* Preview Content */,
 			);
 			path = YokeTest;
 			sourceTree = "<group>";
 		};
-		E9A66C7E278F649B001D6207 /* Preview Content */ = {
+		E9A66C87278F6508001D6207 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				E9A66C7F278F649B001D6207 /* Preview Assets.xcassets */,
+				E9D9BC8B2790AEE200965085 /* Mock */,
+				E9A66C88278F653B001D6207 /* Album.swift */,
+				E9A66C8D278F9FD2001D6207 /* AlbumManager.swift */,
+				E9D9BC8127909B7100965085 /* Genre.swift */,
 			);
-			path = "Preview Content";
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E9A66C8A278F66F9001D6207 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				E9A66C8B278F670B001D6207 /* NetworkManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		E9A66C8F278FB229001D6207 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E9D9BC8327909F9200965085 /* Albums */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E9D9BC8327909F9200965085 /* Albums */ = {
+			isa = PBXGroup;
+			children = (
+				E9A66C90278FB246001D6207 /* AlbumsListView.swift */,
+				E9D9BC872790A6B600965085 /* AlbumRowView.swift */,
+				E9D9BC892790AE7D00965085 /* AlbumDetailView.swift */,
+			);
+			path = Albums;
+			sourceTree = "<group>";
+		};
+		E9D9BC8427909FA100965085 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				E9D9BC8527909FC400965085 /* AlbumsListView+ViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		E9D9BC8B2790AEE200965085 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				E9D9BC8C2790AEF200965085 /* Album+Mock.swift */,
+			);
+			path = Mock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +187,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9A66C80278F649B001D6207 /* Preview Assets.xcassets in Resources */,
 				E9A66C7D278F649B001D6207 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +198,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9A66C7B278F649A001D6207 /* ContentView.swift in Sources */,
-				E9A66C79278F649A001D6207 /* YokeTestApp.swift in Sources */,
+				E9A66C91278FB246001D6207 /* AlbumsListView.swift in Sources */,
+				E9D9BC882790A6B600965085 /* AlbumRowView.swift in Sources */,
+				E9A66C8E278F9FD2001D6207 /* AlbumManager.swift in Sources */,
+				E9D9BC8627909FC400965085 /* AlbumsListView+ViewModel.swift in Sources */,
+				E9D9BC8A2790AE7D00965085 /* AlbumDetailView.swift in Sources */,
+				E9A66C8C278F670B001D6207 /* NetworkManager.swift in Sources */,
+				E9A66C93278FB2E2001D6207 /* YokeTest.swift in Sources */,
+				E9A66C89278F653B001D6207 /* Album.swift in Sources */,
+				E9D9BC8227909B7100965085 /* Genre.swift in Sources */,
+				E9D9BC8D2790AEF200965085 /* Album+Mock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +340,7 @@
 				DEVELOPMENT_TEAM = 83897SRY5X;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = YokeTest/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,7 +362,7 @@
 				DEVELOPMENT_TEAM = 83897SRY5X;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = YokeTest/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
